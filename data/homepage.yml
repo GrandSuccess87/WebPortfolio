@@ -1,9 +1,9 @@
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Andreas."
-  subtitle: "Front-End Developer"
-  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  title: "Hello, I’m Tessa."
+  subtitle: "Full-Stack Developer"
+  description: "I work at <a target='_blank' href='https://whatifmediagroup.com/'>What If Media Group</a>, a performance marketing company in New York. Keep cool, check out my portfolio, and stay in touch!"
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -17,34 +17,37 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
+      URL: "https://www.linkedin.com/in/quintessa-anderson/"
 
     - icon: "github"
-      URL: "https://github.com/radity"
+      URL: "https://github.com/GrandSuccess87"
 
-    - icon: "twitter"
-      URL: "https://twitter.com/radity"
+    # - icon: "twitter"
+      # URL: "https://twitter.com/radity"
+    
+    - icon: "stack overflow"
+      URL: "https://stackoverflow.com/users/8773858/quintessa-anderson?tab=profile"
 
-    - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
+    # - icon: "dribbble"
+      # URL: "https://dribbble.com/radity"
 
-    - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
+    # - icon: "behance"
+      # URL: "https://www.behance.net/radity-digital"
 
-    - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+    # - icon: "youtube"
+      # URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
 
-    - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
+    # - icon: "instagram"
+      # URL: "https://www.instagram.com/teamradity/"
 
-    - icon: "facebook"
-      URL: "https://www.facebook.com/raditycom/"
+    # - icon: "facebook"
+      # URL: "https://www.facebook.com/raditycom/"
 
-    - icon: "codepen"
-      URL: "#"
+    # - icon: "codepen"
+      # URL: "#"
 
-    - icon: "yelp"
-      URL: "https://www.yelp.com/"
+    # - icon: "yelp"
+      # URL: "https://www.yelp.com/"
 
 # about
 about:
@@ -63,7 +66,7 @@ about:
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/quintessa-anderson/"
   image:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
@@ -73,23 +76,27 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+    - university: "Northwestern University"
+      year: "2017-2018"
+      degree: "Certificate, Full Stack Web Development"
 
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+    - university: "Rush University Medical Center"
+      year: "2011-2013"
+      degree: "Bachelor of Science, Vascular Ultrasound Technology"
+    
+    - university: "Knox College"
+      year: "2006-2010"
+      degree: "Bachelor of Arts, Biochemistry and Modern Languages (Spanish and Mandarin)"
 
 # experience
 experience:
   enable: true
   title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  description: "5 years of experience in the product engineering space. 5+ years of experience working in the Healthcare Sector as a medical professional. I develop digital products to help organizations scale and improve people's lives."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/quintessa-anderson/"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
@@ -215,21 +222,21 @@ contact:
     message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+41 (44) 505 10 99"
+    number: "+1 (312) 758 7765"
   email:
     title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
-  address:
-    title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    email: '<a href="mailto:anderson.quintessa@gmail.com">anderson.quintessa@gmail.com</a>'
+  # address:
+    # title: "Address"
+    # address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
 
 # newsletter
-newsletter:
-  enable: true
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
+# newsletter:
+  # enable: true
+  # title: "Newsletter subscription"
+  # success_message: "Successfully subscribed"
+  # error_message: "Error while subscribing."
+  # note: "We'll never share your email with anyone else."
