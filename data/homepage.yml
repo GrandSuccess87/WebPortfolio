@@ -13,7 +13,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    URL: "#contact"
 
   socialLinks:
     - icon: "linkedin"
@@ -25,9 +25,6 @@ showcase:
     # - icon: "twitter"
       # URL: "https://twitter.com/radity"
     
-    - icon: "stack overflow"
-      URL: "https://stackoverflow.com/users/8773858/quintessa-anderson?tab=profile"
-
     # - icon: "dribbble"
       # URL: "https://dribbble.com/radity"
 
@@ -54,13 +51,13 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
+    I am back, after a few days of vacationing! Weather was decent, the layers were plenty,
+    and I managed to not slip on any ice, yuk! All-in-all, life has been good. I hope life has been as
     good for all of you.
     </p>
     <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
+    My area of focus lies in product engineering, project planning / organization, requirement analysis as well as
+    leading full-stack engineering teams. I enjoy designing and coding quality applications as much as
     talking with users to iterate and improve the experiences that reach business goals.
     </p>'
   button:
@@ -68,8 +65,8 @@ about:
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/quintessa-anderson/"
   image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    x: "img/who-am-i/tessa-anderson.png"
+    _2x: "img/who-am-i/tessa-anderson@2x.png"
 
 # education
 education:
@@ -84,6 +81,10 @@ education:
       year: "2011-2013"
       degree: "Bachelor of Science, Vascular Ultrasound Technology"
     
+    - university: "University of Barcelona"
+      year: "2009-2010"
+      degree: "Study Abroad, Spanish Language and Literature"
+
     - university: "Knox College"
       year: "2006-2010"
       degree: "Bachelor of Arts, Biochemistry and Modern Languages (Spanish and Mandarin)"
@@ -92,7 +93,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "5 years of experience in the product engineering space. 5+ years of experience working in the Healthcare Sector as a medical professional. I develop digital products to help organizations scale and improve people's lives."
+  description: "5+ combined years of experience in the product engineering, message engineering, and education space. 5+ years of experience working in the Healthcare Sector as a medical professional. I develop digital products to help organizations scale and improve people's lives."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -100,89 +101,113 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "https://drive.google.com/file/d/1NCTBm010slo-yAa28DjwXa_f0cHcXLDH/view?usp=sharing"
 
   items:
-    - title: "Sr. Front-End Developer"
-      company: "Radity"
-      duration: "Feb 2011 - Sep 2019"
+    - title: "Software Development Engineer I"
+      company: "What If Media Group"
+      duration: "Jul 2022 - Present"
+    
+    - title: "Marketing Team Member"
+      company: "Charboys"
+      duration: "Feb 2022 - Present"
 
-    - title: "Sr. Front-End Developer"
-      company: "Textic"
-      duration: "Apr 2010 - Jan 2011"
+    - title: "Full Stack Web Developer TA"
+      company: "Northwestern University"
+      duration: "Aug 2018 - Present"
 
-    - title: "Jr. Front-End Developer"
-      company: "Cyberse"
-      duration: "Jun 2009 - Mar 2010"
+    - title: "Jr Software Development Engineer"
+      company: "What If Media Group"
+      duration: "Oct 2019 - Jun 2022"
+
+    - title: "Software Engineer"
+      company: "8th Light"
+      duration: "Mar 2019 - Sep 2019"
+
+    - title: "Vascular Ultrasound Technologist"
+      company: "Advocate Health Care"
+      duration: "Aug 2013 - Mar 2019"
+
 
 # Client & Work
 client_and_work:
   title: "Clients & Works"
   enable: true
 
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+  # clients:
+    # - logo:
+        # x: "img/clients/activist.png"
+        # _2x: "img/clients/activist.png"
+      # alt: "Activist"
 
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+    # - logo:
+        # x: "img/clients/wimg.png"
+        # _2x: "img/clients/wimg.png"
+      # alt: "What If Media Group"
 
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
+    # - logo:
+        # x: "img/clients/goldline.png"
+        # _2x: "img/clients/goldline@2x.png"
+      # alt: "Goldline"
 
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
+    # - logo:
+        # x: "img/clients/kanba.png"
+        # _2x: "img/clients/kanba@2x.png"
+      # alt: "Kanba"
 
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
+    # - logo:
+        # x: "img/clients/zoo-tv.png"
+        # _2x: "img/clients/zoo-tv@2x.png"
+      # alt: "Zoo"
 
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+    # - logo:
+        # x: "img/clients/ztos.png"
+        # _2x: "img/clients/ztos@2x.png"
+      # alt: "Ztos"
 
   works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+    - title: "Content Creator"
+      description: "(Company Owned Product) Served as the Tech Lead for a team of five software enginers responsible for building a low latency modernized Content Creation System for our Email and SMS marketing channels leveraging Generative AI resulting in a >55% increase in efficiency for swift content creation. Demonstrating strong leadership and technical expertise whilst delivering a successful product. Tech Stack: React, Nest, Typescript, Material UI, MariaDb, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more." 
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
-
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/works/pexels-mojahid-mottakin-16115908.jpg"
+        _2x: "img/works/pexels-mojahid-mottakin-16115908@2x.jpg"
       is_even: false
 
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+    - title: "From Creator"
+      description: "(Company Owned Product in progress) Serve as the Tech Lead for a team of four professionals, overseeing the development of a comprehensive system responsible for the creation, management, and seamless purchase of domains via the Namecheap API, as well as management of DNS settings data via the Power DNS API. Showcasing both technical prowess and effective leadership. Tech Stack: React, Nest, Typescript, TypeORM, Material UI, MariaDb, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
         URL: "#"
       image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
+        x: "img/works/pexels-burak-the-weekender-45072.jpg"
+        _2x: "img/works/pexels-burak-the-weekender-4507@2x.jpg"
+      is_even: true
+
+    - title: "activist.org"
+      description: "I serve as Individual Contributor on this open source project. Features underway include the ability to share activist's web application with friends and family via various social media platforms, email, and text message. Tech Stack: Vue 3, Nuxt 3, Typescript, Django, Tailwind CSS, Headless UI, PostreSQL, Docker, Netlify, Vite, Plausible" 
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/activist2.png"
+        _2x: "img/works/activist2.png"
+      is_even: false
+
+    - title: "Template Management System"
+      description: "(Company Owned Product in progress) Re-architecting and re-designing the legacy based Template Management System to a modernized, low latency, and scalable system. Tech Stack: React, Nest, Typescript, TypeORM, Material UI, MariaDb, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/pexels-pixabay-270408.jpg"
+        _2x: "img/works/pexels-pixabay-270408@2x.jpg"
       is_even: true
 
 # testimonial
@@ -190,23 +215,23 @@ testimonial:
   enable: true
   title: "Testimonials"
   items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
-      image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
-
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+    - name: "Taniesha Robinson"
+      position: "Trilogy Education, Software Engineering Instructor" 
+      content: "Quintessa is one of the most persistent and determined students I've had the pleasure to assist in learning to code. She put in an unmatched effort during her time in Northwestern's Coding Bootcamp: attending office hours at least twice a week, reviewing past assignments in detail with instructors and teaching assistants, and contributing to class message channels frequently to discuss code topics. As a result, she had the largest arc of improvement in the course. Quintessa came into the program with very little previous experience and left with front end and back end skills. She has the determination to succeed in whichever avenue she chooses."
       image:
         x: "img/testimonials/jonathan-peters.jpg"
         _2x: "img/testimonials/jonathan-peters@2x.jpg"
 
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+    - name: "Sarah Leon"
+      position: "Software Engineer"
+      content: "Quintessa is a hard worker and has the grit and curiosity it takes to master new technologies. She is also a dream to work with because of her phenomenal communication skills and positive demeanor. Any challenge does not appear to phase this developer and she would be a full-package asset to any team!"
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "James Reinknecht"
+      position: "Trilogy Education, Senior Full Stack and UI/IX tutor"
+      content: "Quintessa is one of the smartest and hard working students I've taught. Her code is clean, she adapts to new concepts incredibly quick, and she's a pleasure to work with. Quintessa will do some amazing things with her talents, and she would fit in on nearly any development team and make an impact immediately. I hope to one day work with her again!"
       image:
         x: "img/testimonials/antonio-willis.jpg"
         _2x: "img/testimonials/antonio-willis@2x.jpg"
@@ -229,9 +254,14 @@ contact:
   # address:
     # title: "Address"
     # address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+  socialLinks:
+    - icon: "linkedin"
+    - URL: "https://www.linkedin.com/in/quintessa-anderson/"
+    - icon: "github"
+    - URL: "https://github.com/GrandSuccess87"
   button:
     icon: "icon-mail-fill"
-    btnText: "Send Message"
+    btnText: "Send Message"   
 
 # newsletter
 # newsletter:
