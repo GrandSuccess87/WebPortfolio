@@ -1,9 +1,8 @@
-{{ if .Site.Data.homepage.contact.enable }}
-<section id="contact" class="section section--contact pt-0">
-    <div class="container">
+<!-- {{ if .Site.Data.homepage.contact.enable }} -->
+<!-- <section id="contact" class="section section--contact pt-0"> -->
+    <!-- <div class="container"> -->
         <!-- <div class="contact"> -->
             <!-- <h2>{{ .Site.Data.homepage.contact.title }}</h2> -->
-            <!-- <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial"> -->
             <!-- <div class="row pt-2"> -->
                 <!-- <div class="col-12 col-lg-7"> -->
                     <!-- <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}"> -->
@@ -32,6 +31,15 @@
                             <!-- </div> -->
                         <!-- </div> -->
                     <!-- </form> -->
+                    <!-- <div class="row platform-links"> -->
+                        <!-- <div class="col-12"> -->
+                          <!-- {{ range .Site.Data.homepage.showcase.socialLinks }} -->
+                          <!-- <a href="{{ .URL | absURL }}" target="_blank" -->
+                            <!-- ><i class="icon-{{ .icon }}-line"></i -->
+                          <!-- ></a> -->
+                          <!-- {{ end }} -->
+                        <!-- </div> -->
+                      <!-- </div> -->
                 <!-- </div> -->
                 <!-- <div class="col-12 col-lg-5 contact__info"> -->
                     <!-- <h4>{{ .Site.Data.homepage.contact.phone.title }}</h4> -->
@@ -42,7 +50,7 @@
                     <!-- <span>{{ .Site.Data.homepage.contact.address.address | safeHTML }}</span> -->
                 <!-- </div> -->
             <!-- </div> -->
-        </div>
-    </div>
-</section>
-{{ end }}
+        <!-- </div> -->
+    <!-- </div> -->
+<!-- </section> -->
+<!-- {{ end }} -->
