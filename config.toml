@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
 [[module.imports]]
-path = "/home/runner/work/WebPortfolio/WebPortfolio/themes"
+path = "/home/runner/work/WebPortfolio/WebPortfolio/themes/raditian-free-hugo-theme"
 
 # Plugins
 [params.plugins]
