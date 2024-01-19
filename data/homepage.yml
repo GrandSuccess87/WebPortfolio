@@ -3,7 +3,15 @@ showcase:
   enable: true
   title: "Hello, I’m Tessa."
   subtitle: "Full-Stack Developer"
-  description: "I work at <a target='_blank' href='https://whatifmediagroup.com/'>What If Media Group</a>, a performance marketing company in New York. Keep cool, check out my portfolio, and stay in touch!"
+  description: 'A relentless problem solver and detail-oriented developer with a passion for writing clean, scalable, and reliable software.
+  <p class="lead"> 
+  I enjoy tackling complex problems with unwavering focus,
+  streamlining the simple ones through automation, 
+  and crafting technical solutions to enhance the user experience.
+  While my primary experience lies in the web development and product engineering space with React, Typescript, Node, SQL, and cloud technologies,
+  my versatility and adaptability allow me to quickly learn new technologies and languages to meet business needs.
+  </p>' 
+  # I enjoy tackling complex problems and building products that are intuitive, accessible, and delightful to use. I am a lifelong learner and am always looking for opportunities to grow and improve my skills.
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -111,17 +119,17 @@ experience:
       company: "Northwestern University"
       duration: "Aug 2018 - Present"
 
-    - title: "Jr Software Development Engineer"
-      company: "What If Media Group"
-      duration: "Oct 2019 - Jun 2022"
+    # - title: "Jr Software Development Engineer"
+      # company: "What If Media Group"
+      # duration: "Oct 2019 - Jun 2022"
 
-    - title: "Software Engineer"
-      company: "8th Light"
-      duration: "Mar 2019 - Sep 2019"
+    # - title: "Software Engineer"
+      # company: "8th Light"
+      # duration: "Mar 2019 - Sep 2019"
 
-    - title: "Vascular Ultrasound Technologist"
-      company: "Advocate Health Care"
-      duration: "Aug 2013 - Mar 2019"
+    # - title: "Vascular Ultrasound Technologist"
+      # company: "Advocate Health Care"
+      # duration: "Aug 2013 - Mar 2019"
 
 
 # Client & Work
@@ -183,7 +191,7 @@ client_and_work:
         _2x: "img/works/pexels-burak-the-weekender-4507@2x.jpg"
       is_even: true
 
-    - title: "activist.org"
+    - title: "Activist.org"
       description: "I serve as Individual Contributor on this open source project. Features underway include the ability to share activist's web application with friends and family via various social media platforms, email, and text message. Tech Stack: Vue 3, Nuxt 3, Typescript, Django, Tailwind CSS, Headless UI, PostreSQL, Docker, Netlify, Vite, Plausible" 
       button:
         icon: "icon-arrow-right"
