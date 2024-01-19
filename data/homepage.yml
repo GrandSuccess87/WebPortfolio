@@ -167,7 +167,7 @@ client_and_work:
 
   works:
     - title: "Content Creator"
-      description: "(Company Owned Product) Served as the Tech Lead for a team of five software enginers responsible for building a low latency modernized Content Creation System for our Email and SMS marketing channels leveraging Generative AI resulting in a >55% increase in efficiency for swift content creation. Demonstrating strong leadership and technical expertise whilst delivering a successful product. Tech Stack: React, Nest, Typescript, Material UI, MariaDb, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more." 
+      description: "(Company Owned Product) Served as the Tech Lead for a team of five software enginers responsible for building a low latency modernized Content Creation System for our Email and SMS marketing channels leveraging Generative AI resulting in a 63% increase in efficiency for swift content creation. Demonstrating strong leadership and technical expertise whilst delivering a successful product. Tech Stack: React, Typescript, Material UI, MariaDB, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more." 
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
@@ -178,7 +178,7 @@ client_and_work:
       is_even: false
 
     - title: "From Creator"
-      description: "(Company Owned Product in progress) Serve as the Tech Lead for a team of four professionals, overseeing the development of a comprehensive system responsible for the creation, management, and seamless purchase of domains via the Namecheap API, as well as management of DNS settings data via the Power DNS API. Showcasing both technical prowess and effective leadership. Tech Stack: React, Nest, Typescript, TypeORM, Material UI, MariaDb, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more."
+      description: "(Company Owned Product in progress) Serve as the Tech Lead for a team of four professionals, overseeing the development of a comprehensive system responsible for the creation, management, and seamless purchase of domains via the Namecheap API, as well as management of DNS settings data via the Power DNS API. Showcasing both technical prowess and effective leadership. Tech Stack: React, Nest, Typescript, TypeORM, Material UI, MariaDB, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
@@ -200,7 +200,7 @@ client_and_work:
       is_even: false
 
     - title: "Template Management System"
-      description: "(Company Owned Product in progress) Re-architecting and re-designing the legacy based Template Management System to a modernized, low latency, and scalable system. Tech Stack: React, Nest, Typescript, TypeORM, Material UI, MariaDb, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more."
+      description: "(Company Owned Product in progress) Re-architecting and re-designing the legacy based Template Management System to a modernized, low latency, and scalable system. Tech Stack: React, Nest, Typescript, TypeORM, Material UI, MariaDB, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more."
       button:
         icon: "icon-arrow-right"
         btnText: "Case Study"
