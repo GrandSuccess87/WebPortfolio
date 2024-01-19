@@ -8,7 +8,7 @@ showcase:
   I enjoy tackling complex problems with unwavering focus,
   streamlining the simple ones through automation, 
   and crafting technical solutions to enhance the user experience.
-  While my primary experience lies in the web development and product engineering space with React, Typescript, Node, SQL, and cloud technologies,
+  While my primary experience lies in the web development space with React, Typescript, Node, SQL, and cloud technologies,
   my versatility and adaptability allow me to quickly learn new technologies and languages to meet business needs.
   </p>' 
   # I enjoy tackling complex problems and building products that are intuitive, accessible, and delightful to use. I am a lifelong learner and am always looking for opportunities to grow and improve my skills.
@@ -59,7 +59,8 @@ about:
   enable: true
   title: "Who am I?"
   content: '<p class="lead">
-    My area of focus lies in product engineering, project planning / organization, requirement analysis as well as
+    I do my best work when I am challenged and surrounded by people who are smarter than me. I am a self-motivated, detail-oriented, and an empathetic developer with a passion for all things technology :)) I have a background in
+     product engineering, project planning / organization, requirement analysis as well as
     leading full-stack engineering teams. I enjoy designing and coding quality applications as much as
     talking with users to iterate and improve the experiences that reach business goals.
     </p>'
