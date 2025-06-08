@@ -67,7 +67,12 @@ jobs:
         run: |
           find ./public -type l -ls || true
           du -sh ./public
-          find ./public -name ".*" -ls || true     
+          find ./public -name ".*" -ls || true  
+      - name: Strip extended attributes (macOS)
+        run: |
+          if command -v xattr >/dev/null 2>&1; then
+            find ./public -type f -exec xattr -c {} + 2>/dev/null || true
+          fi   
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
