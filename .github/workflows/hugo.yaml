@@ -60,7 +60,12 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"  
-          rm -f ./public/.hugo_build.lock        
+          rm -f ./public/.hugo_build.lock   
+      - name: Debug artifact contents
+        run: |
+          find ./public -type l -ls || true
+          du -sh ./public
+          find ./public -name ".*" -ls || true     
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
