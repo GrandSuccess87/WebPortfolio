@@ -1,26 +1,831 @@
-<!-- inject:../components/baseHead/baseHeadStart.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+	<meta name="generator" content="Hugo 0.147.8"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
-    {{ partial "head.html" . }}
+    <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
-    {{ partial "head_custom.html" . }}
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=GTM-000000' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-000000');
+</script>
+
+
+<title></title>
+<style>
+     
+    .rad-fade-in {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in.rad-animate {
+        animation-name: rad-fade-in;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-in-long {
+        will-change: opacity, transform;
+        animation-name: rad-fade-in-long-fallback;
+        animation-duration: 8s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long-fallback {
+        0% {
+            opacity: 0;
+        }
+
+        75% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+    }
+
+    .fonts-loaded .rad-fade-in-long.rad-animate {
+        animation-name: rad-fade-in-long;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-fade-in-long {
+        0% {
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+     
+    .rad-fade-down {
+        will-change: opacity, transform;
+        animation-name: rad-fade-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform: translateY(-30px);
+    }
+
+    @keyframes rad-fade-down-fallback {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        75% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fonts-loaded .rad-fade-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    .fonts-loaded .rad-fade-down.rad-animate {
+        animation-name: rad-fade-down;
+        animation-duration: 1.1s;
+    }
+
+    @keyframes rad-fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-30px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+     
+    .rad-scale-down {
+        will-change: opacity, transform;
+        animation-name: rad-scale-down-fallback;
+        animation-duration: 5s;
+        animation-fill-mode: both;
+        transform-origin: 50% 0;
+    }
+
+    @keyframes rad-scale-down-fallback {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        75% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+
+    .fonts-loaded .rad-scale-down.rad-waiting {
+        animation-name: none;
+        opacity: 0;
+        transform: scaleY(0.95);
+    }
+
+    .fonts-loaded .rad-scale-down.rad-animate {
+        animation-name: rad-scale-down;
+        animation-duration: 1.1s;
+        animation-fill-mode: both;
+    }
+
+    @keyframes rad-scale-down {
+        0% {
+            opacity: 0;
+            transform: scaleY(0.95);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scaleY(1);
+        }
+    }
+</style>
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/main.css"/>
+
+<link rel="stylesheet" href="http://localhost:1313/css/rad-icons.css"/>
+
+<link rel="stylesheet" href="http://localhost:1313/css/custom.css"/>
+
+
+    
+
 
 </head>
 
 <body>
 
-	{{ partial "header.html" . }}
+	<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      <a class="navbar-brand" href="http://localhost:1313/">
+        <span></span>
+        <span></span>
+        
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-	{{ range .Site.Params.sections }}
-	{{ partial . $ }}
-	{{ end }}
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#about"
+              >ABOUT</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#portfolio"
+              >PORTFOLIO</a
+            >
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
 
-	{{ partial "footer.html" . }}
-    {{ partial "base-foot.html" . }}
+
+	
+	
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
+  <div class="rad-showcase__bg">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="http://localhost:1313/img/showcase/showcase.png"
+      data-srcset="http://localhost:1313/img/showcase/showcase.png 1x, http://localhost:1313/img/showcase/showcase@2x.png 2x"
+      alt=""
+    />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+        <h1 class="display-1">
+          Hello, I’m Tessa.
+          <br />
+          <span
+            >Full-Stack Developer</span
+          >
+        </h1>
+        <p class="lead">
+          A relentless problem solver and detail-oriented developer with a passion for writing clean, scalable, and reliable software. <p class="lead"> I enjoy tackling complex problems with unwavering focus, streamlining the simple ones through automation, and crafting technical solutions to enhance the user experience. While my primary experience lies in the web development space with React, Typescript, Node, SQL, and cloud technologies, my versatility and adaptability allow me to quickly learn new technologies and languages to meet business needs. </p>
+        </p>
+        
+          
+          
+        
+          
+          
+        
+      </div>
+    </div>
+    
+      
+        
+        
+          
+        
+        
+        
+          
+        
+        
+      
+    
+  </div>
+  <div class="rad-showcase__bg rad-showcase__bg--mobile">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="http://localhost:1313/img/showcase/showcase-mobile.jpg"
+      alt=""
+    />
+  </div>
+</section>
+
+
+	
+	
+<section class="section rad-animation-group pb-0" id="about">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      <div class="about__profile-picture col-12 col-md-6">
+        <img
+          class="lozad img-responsive image-left-overflow"
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="http://localhost:1313/img/who-am-i/tessa-anderson.png"
+          data-srcset="http://localhost:1313/img/who-am-i/tessa-anderson.png 1x, http://localhost:1313/img/who-am-i/tessa-anderson@2x.png 10x"
+          alt="Profile Picture"
+        />
+      </div>
+      <div class="col-12 col-md-6 my-auto my-auto">
+        <h2>Who am I?</h2>
+        <p class="lead">
+          <p class="lead"> I do my best work when I am challenged and surrounded by people who are smarter than me. I am a self-motivated, detail-oriented, and an empathetic developer with a passion for all things technology :)) I have a background in product engineering, project planning / organization, requirement analysis as well as leading full-stack engineering teams. I enjoy designing and coding quality applications as much as talking with users to iterate and improve the experiences that reach business goals. </p>
+        </p>
+        <a
+          href="https://www.linkedin.com/in/quintessa-anderson/"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          <i class="icon-smile-fill"></i>
+          About Me
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+	
+	
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>Education</h2>
+                <div class="row pt-2 pt-md-4">
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2017-2018</div>
+                            <div class="education__title">Northwestern University</div>
+                            <div class="education__degree">
+                                Certificate, Full Stack Web Development
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2011-2013</div>
+                            <div class="education__title">Rush University Medical Center</div>
+                            <div class="education__degree">
+                                Bachelor of Science, Vascular Ultrasound Technology
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2009-2010</div>
+                            <div class="education__title">University of Barcelona</div>
+                            <div class="education__degree">
+                                Study Abroad, Spanish Language and Literature
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__date">2006-2010</div>
+                            <div class="education__title">Knox College</div>
+                            <div class="education__degree">
+                                Bachelor of Arts, Biochemistry and Modern Languages (Spanish and Mandarin)
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="experience" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+                
+                <div class="experience">
+                    <div class="experience__date">Mar 2024 - Present</div>
+                    <div class="experience__title">Software Development Engineer II</div>
+                    <div class="experience__company">What If Media Group</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Feb 2022 - Present</div>
+                    <div class="experience__title">Marketing Team Member</div>
+                    <div class="experience__company">Charboys</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Aug 2018 - May 2025</div>
+                    <div class="experience__title">Full Stack Web Developer TA</div>
+                    <div class="experience__company">Northwestern University</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Jul 2022 - Mar 2024</div>
+                    <div class="experience__title">Software Development Engineer I</div>
+                    <div class="experience__company">What If Media Group</div>
+                </div>
+                
+                <div class="experience">
+                    <div class="experience__date">Oct 2019 - Jul 2022</div>
+                    <div class="experience__title">Software Development Engineer</div>
+                    <div class="experience__company">What If Media Group</div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-sm-6">
+                <h2>Experience</h2>
+                <p class="lead">
+                    Experienced full-stack engineer and technical instructor with 6&#43; years delivering business value across product engineering, cloud, and technical education. I bring a unique blend of technical depth and domain expertise, shaped by 5&#43; years as a healthcare professional. I build scalable platforms, contribute to open-source, and explore GenAI and machine learning through hands-on projects like sentiment analysis and graph-based recommendation systems. I also support open-source tools focused on education, advocacy, and social good—all with a focus on helping organizations scale and improve lives through thoughtful, purpose-driven technology.
+                </p>
+                <a href="https://www.linkedin.com/in/quintessa-anderson/" class="btn btn-primary"
+                   target="_blank">
+                    <i class="icon-linkedin-fill"></i>
+                    Linkedin
+                    <i class="icon-arrow-right"></i></a>
+                <a href="https://drive.google.com/file/d/1NCTBm010slo-yAa28DjwXa_f0cHcXLDH/view?usp=sharing" class="btn btn-frameless"
+                   target="_blank">
+                    <i class="icon-profile-fill"></i>
+                    Download My Resume
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	
+	
+<section id="portfolio" class="section section--border-bottom">
+  <div class="container">
+    <h2 class=" rad-animation-group rad-fade-down">
+      Clients &amp; Works
+    </h2>
+    
+      
+        
+          
+        
+      
+    
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down "
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-right-forward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="http://localhost:1313/img/works/pexels-mojahid-mottakin-16115908.jpg"
+          data-srcset="http://localhost:1313/img/works/pexels-mojahid-mottakin-16115908.jpg 1x, http://localhost:1313/img/works/pexels-mojahid-mottakin-16115908@2x.jpg 2x"
+          alt="Content Creator"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Content Creator</h3>
+        <p class="lead">
+          (Company Owned Product) Served as the Tech Lead for a team of five software enginers responsible for building a low latency modernized Content Creation System for our Email and SMS marketing channels leveraging Generative AI resulting in a 63% increase in efficiency for swift content creation. Demonstrating strong leadership and technical expertise whilst delivering a successful product. Tech Stack: React, Typescript, Material UI, MariaDB, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more.
+        </p>
+        
+          
+        
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>From Creator</h3>
+        <p class="lead">
+          (Company Owned Product in progress) Serve as the Tech Lead for a team of four professionals, overseeing the development of a comprehensive system responsible for the creation, management, and seamless purchase of domains via the Namecheap API, as well as management of DNS settings data via the Power DNS API. Showcasing both technical prowess and effective leadership. Tech Stack: React, Nest, Typescript, TypeORM, Material UI, MariaDB, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more.
+        </p>
+        
+          
+        
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-forward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="http://localhost:1313/img/works/pexels-burak-the-weekender-45072.jpg"
+          data-srcset="http://localhost:1313/img/works/pexels-burak-the-weekender-45072.jpg 1x, http://localhost:1313/img/works/pexels-burak-the-weekender-4507@2x.jpg 2x"
+          alt="From Creator"
+        />
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down "
+    >
+      
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-right-forward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="http://localhost:1313/img/works/activist2.png"
+          data-srcset="http://localhost:1313/img/works/activist2.png 1x, http://localhost:1313/img/works/activist2.png 2x"
+          alt="Activist.org"
+        />
+      </div>
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Activist.org</h3>
+        <p class="lead">
+          I serve as Individual Contributor on this open source project. Features underway include the ability to share activist&#39;s web application with friends and family via various social media platforms, email, and text message. Tech Stack: Vue 3, Nuxt 3, Typescript, Django, Tailwind CSS, Headless UI, PostreSQL, Docker, Netlify, Vite, Plausible
+        </p>
+        
+          
+        
+      </div>
+      
+    </div>
+    
+    <div
+      class="row row--padded rad-animation-group rad-fade-down flex-column-reverse flex-md-row"
+    >
+      
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto">
+        <h3>Template Management System</h3>
+        <p class="lead">
+          (Company Owned Product in progress) Re-architecting and re-designing the legacy based Template Management System to a modernized, low latency, and scalable system. Tech Stack: React, Nest, Typescript, TypeORM, Material UI, MariaDB, Docker, Kubernetes, AWS, Gitlab CI/CD, RESTful APIs, Node and more.
+        </p>
+        
+          
+        
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
+        <img
+          class='lozad img-responsive img-clip-left-forward'
+          src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+          data-src="http://localhost:1313/img/works/pexels-pixabay-270408.jpg"
+          data-srcset="http://localhost:1313/img/works/pexels-pixabay-270408.jpg 1x, http://localhost:1313/img/works/pexels-pixabay-270408@2x.jpg 2x"
+          alt="Template Management System"
+        />
+      </div>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+	
+	
+<section class="section rad-animation-group section--border-bottom">
+    <div class="container">
+        <h2 class="rad-fade-down">Testimonials</h2>
+        <div class="row row--padded mb-0 rad-fade-down">
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <i>
+                    Quintessa is one of the most persistent and determined students I&#39;ve had the pleasure to assist in learning to code. She put in an unmatched effort during her time in Northwestern&#39;s Coding Bootcamp: attending office hours at least twice a week, reviewing past assignments in detail with instructors and teaching assistants, and contributing to class message channels frequently to discuss code topics. As a result, she had the largest arc of improvement in the course. Quintessa came into the program with very little previous experience and left with front end and back end skills. She has the determination to succeed in whichever avenue she chooses.
+                </i>
+                <div class="testimonial__author">
+                    
+                         
+                         
+                         
+                         
+                    <div class="testimonial__author-info"></br>
+                        <h4>Taniesha Robinson</h4>
+                        <span>Trilogy Education, Software Engineering Instructor</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <i>
+                    Quintessa is a hard worker and has the grit and curiosity it takes to master new technologies. She is also a dream to work with because of her phenomenal communication skills and positive demeanor. Any challenge does not appear to phase this developer and she would be a full-package asset to any team!
+                </i>
+                <div class="testimonial__author">
+                    
+                         
+                         
+                         
+                         
+                    <div class="testimonial__author-info"></br>
+                        <h4>Sarah Leon</h4>
+                        <span>Software Engineer</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
+                <i class="icon-quote"></i>
+                <i>
+                    Quintessa is one of the smartest and hard working students I&#39;ve taught. Her code is clean, she adapts to new concepts incredibly quick, and she&#39;s a pleasure to work with. Quintessa will do some amazing things with her talents, and she would fit in on nearly any development team and make an impact immediately. I hope to one day work with her again!
+                </i>
+                <div class="testimonial__author">
+                    
+                         
+                         
+                         
+                         
+                    <div class="testimonial__author-info"></br>
+                        <h4>James Reinknecht</h4>
+                        <span>Trilogy Education, Senior Full Stack and UI/IX tutor</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+	
+	
+
+    
+        
+            
+            
+                
+                    
+                        
+                            
+                                
+                                       
+                            
+                            
+                                
+                                       
+                            
+                        
+                        
+                            
+                                
+                                          
+                            
+                        
+                        
+                            
+                                
+                                    
+                                    
+                                
+                            
+                        
+                    
+                    
+                        
+                          
+                          
+                            
+                          
+                          
+                          
+                            
+                          
+                          
+                        
+                      
+                
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                
+            
+        
+    
+
+
+	
+	
+
+	
+
+	<footer class="footer">
+  <div class="container">
+    <div class="footer__left">
+      <div class="footer__copy">
+        © Raditian. All rights reserved.
+      </div>
+    </div>
+    <div class="footer__links">
+      <ul class="navbar-nav ">
+        <li class="nav-item">
+          <a class="nav-link" href="/">HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:1313/#about">ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="http://localhost:1313/#portfolio">PORTFOLIO</a>
+        </li>
+        
+      </ul>
+    </div>
+    
+      
+        
+          
+          
+          
+      
+    
+  </div>
+</footer>
+
+    <script src='http://localhost:1313/js/rad-animations.js'></script>
+<script src='http://localhost:1313/js/library/lozad.min.js'></script>
+<script>
+  window.addEventListener("load", function() {
+    var observer = window.lozad(".lozad", {
+      rootMargin: window.innerHeight / 2 + "px 0px",
+      threshold: 0.01
+    }); 
+    observer.observe();
+  });
+</script>
+<script src='http://localhost:1313/js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='http://localhost:1313/js/library/bootstrap.min.js'></script>
+<script src='http://localhost:1313/js/sticky-header.js'></script>
+<script src='http://localhost:1313/js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='http://localhost:1313/js/library/fontfaceobserver.js'></script>
+<script>
+  (function(w) {
+    
+    if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+    var fontA = new w.FontFaceObserver("Inter", {
+      weight: 300
+    });
+    var fontB = new w.FontFaceObserver("Inter", {
+      weight: 400
+    });
+    var fontC = new w.FontFaceObserver("Inter", {
+      weight: 500
+    });
+    var fontD = new w.FontFaceObserver("Inter", {
+      weight: 600
+    });
+    var fontE = new w.FontFaceObserver("Inter", {
+      weight: 700
+    });
+    var fontF = new w.FontFaceObserver("Inter", {
+      weight: 900
+    });
+    w.Promise.all([fontA.load(), fontC.load(), fontF.load()]).then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+  })(this);
+</script>
+<script>
+  const scroll = new SmoothScroll('a[href*="#"]');
+    $('a.nav-link').on('click', () => {
+      const navbar = $('.navbar-collapse');
+      if (navbar && navbar.hasClass('show')) {
+        $('.navbar-toggler').click();
+      }
+    })
+</script>
+
 </body>
 
 </html>
-<!-- endinject -->

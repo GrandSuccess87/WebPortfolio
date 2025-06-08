@@ -97,7 +97,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "5+ combined years of experience in the product engineering, message engineering, and education space. 5+ years of experience working in the Healthcare Sector as a medical professional. I develop digital products to help organizations scale and improve people's lives."
+  description: "Experienced full-stack engineer and technical instructor with 6+ years delivering business value across product engineering, cloud, and technical education. I bring a unique blend of technical depth and domain expertise, shaped by 5+ years as a healthcare professional. I build scalable platforms, contribute to open-source, and explore GenAI and machine learning through hands-on projects like sentiment analysis and graph-based recommendation systems. I also support open-source tools focused on education, advocacy, and social good—all with a focus on helping organizations scale and improve lives through thoughtful, purpose-driven technology."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -108,17 +108,25 @@ experience:
     URL: "https://drive.google.com/file/d/1NCTBm010slo-yAa28DjwXa_f0cHcXLDH/view?usp=sharing"
 
   items:
-    - title: "Software Development Engineer I"
+    - title: "Software Development Engineer II"
       company: "What If Media Group"
-      duration: "Jul 2022 - Present"
-    
+      duration: "Mar 2024 - Present"
+
     - title: "Marketing Team Member"
       company: "Charboys"
       duration: "Feb 2022 - Present"
 
     - title: "Full Stack Web Developer TA"
       company: "Northwestern University"
-      duration: "Aug 2018 - Present"
+      duration: "Aug 2018 - May 2025"
+    
+    - title: "Software Development Engineer I"
+      company: "What If Media Group"
+      duration: "Jul 2022 - Mar 2024"
+
+    - title: "Software Development Engineer"
+      company: "What If Media Group"
+      duration: "Oct 2019 - Jul 2022"
 
     # - title: "Jr Software Development Engineer"
       # company: "What If Media Group"
