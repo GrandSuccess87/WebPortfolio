@@ -60,7 +60,9 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"  
-          rm -f ./public/.hugo_build.lock   
+          rm -f ./public/.hugo_build.lock  
+      - name: Fix file permissions
+        run: chmod -R a+rX ./public 
       - name: Debug artifact contents
         run: |
           find ./public -type l -ls || true
